@@ -6,6 +6,7 @@ public class for1 {
              System.out.println("I: " + contador);
          }
 
+
         //loop infinito
          //for (;true;) {
            //  System.out.println("fim");
