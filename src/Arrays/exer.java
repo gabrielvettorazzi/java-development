@@ -15,9 +15,18 @@ public class exer {
         System.out.println(Arrays.toString(notasAlunos));
 
         double total= 0;
-        for (int i =0; i<3; i++ ) {
-            total += notasAlunos[i];
+        for (int i =0; i<notasAlunos.length; i++ ) {
+             total += notasAlunos[i];
         }
-    }
+        System.out.println(total/notasAlunos.length);
+        double[] NotasAlunoB = {6.9, 5.7, 4.0, 6.0 };
 
+        for (int i = 0; i < NotasAlunoB.length; i++) {
+            total += NotasAlunoB[i];
+        }
+
+        double media = (total/NotasAlunoB.length);
+
+        System.out.println(" A media total é: " +media);
+    }
 }

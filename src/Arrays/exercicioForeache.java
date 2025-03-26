@@ -12,11 +12,10 @@ public class exercicioForeache {
         idade[3] = 4;
         idade[4] = 5;
 
-
         int to = 0;
-      for (int i =0; i < to; i++ ) {
+        for (int i =0; i < to; i++ ) {
           System.out.println(to);
-      }
+       }
         System.out.println(Arrays.toString(idade));
-    }
+     }
 }

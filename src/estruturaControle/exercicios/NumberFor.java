@@ -14,6 +14,5 @@ public class NumberFor {
           }else
               System.out.println("Não é primo   ");
         scanner.close();
-
     }
 }
