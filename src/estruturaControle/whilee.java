@@ -1,4 +1,4 @@
-package forr;
+package estruturaControle;
 
 import java.util.Scanner;
 
