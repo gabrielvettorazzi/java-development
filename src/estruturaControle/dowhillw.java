@@ -1,3 +1,5 @@
+package estruturaControle;
+
 import java.util.Scanner;
 
 public class dowhillw {
