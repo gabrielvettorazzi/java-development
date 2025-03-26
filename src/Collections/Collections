@@ -1,0 +1,16 @@
+
+SET -> Não ordenado
+    -> Não indexado
+    -> não aceita repetição - obj duplicados
+
+LIST -> Indexada
+     -> Aceita repetição
+
+MAP  -> Chave/Valor
+     -> chave não aceita repetição
+
+QUEUE -> Implementa fila
+      -> First in/ First out(FIFO)
+
+STACK -> Implementa Pilha (Stack)
+      -> Last in/First out (LIFO)
