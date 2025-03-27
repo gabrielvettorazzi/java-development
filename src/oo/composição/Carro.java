@@ -1,5 +1,4 @@
-package oo.composição;
-
+/*
 public class Carro {
      Motor motor = new Motor();
 
@@ -22,3 +21,4 @@ public class Carro {
          return motor.ligado;
        }
 }
+*/
