@@ -1,9 +1,7 @@
-package Collections;
+package collections;
 
-import javax.swing.*;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.HashSet;
 
 public class Mapa {
     //estrutura chave valor
