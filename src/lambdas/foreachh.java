@@ -22,7 +22,7 @@ public class foreachh {
         System.out.println(par);
         System.out.println(impar);
 
-        //() -> {}
+        //(PARAMETRO) -> {EXPRESSAO}
 
     }
 }
