@@ -18,8 +18,6 @@ public class DesafioMap {
         nums.stream().map(num -> Integer.toBinaryString(num)).forEach(print);
 
 
-        System.out.println("invertendo String e alterando para arrya");
-        nums.stream().map(inv -> new StringBuilder(inv).reverse().toString())
-                .toArray(String[]::new );
+
     }
 }
