@@ -17,7 +17,5 @@ public class DesafioMap {
         System.out.println("Numero para string binaria");
         nums.stream().map(num -> Integer.toBinaryString(num)).forEach(print);
 
-
-
     }
 }
