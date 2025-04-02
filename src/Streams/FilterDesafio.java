@@ -15,7 +15,7 @@ public class FilterDesafio {
         List<Carro> caros = Arrays.asList(C1,C2,C3,C4);
           caros.stream()
                   .filter(c -> c.velocidade >= 280)
-                  .map(c -> "O carro mais rapido do mundo é: " + c +"!!")
+                  .map(c -> "O carro mais rapido do mundo é: " + c.nome +"!!")
                   .forEach(System.out::println);
 
     }
