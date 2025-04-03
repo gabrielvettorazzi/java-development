@@ -18,6 +18,5 @@ public class filter {
                 .filter(r -> r.nota >= 6.0)
                 .map(r ->"Parabens " + r.nome + "! voce foi aprovado(a)!")
                 .forEach(System.out::println);
-
     }
 }

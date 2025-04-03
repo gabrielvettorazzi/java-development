@@ -12,13 +12,20 @@ public class Reduce1 {
 
         BinaryOperator<Integer> soma = (ac, n) -> ac + n;
 
-         int total = nums.stream()
+            int total = nums.stream()
                   .reduce(soma)
                   .get(); // na funcao de baixo não precisei do get pois passei um valor inicial
-
              System.out.println(total);
 
-                int total2 = nums.parallelStream().reduce(100, soma);
-        System.out.println(total2);
+             int total2 = nums.parallelStream().reduce(100, soma);
+            System.out.println(total2);
+
+
+            //Stream está filtrando todos os números maiores do que 5 dentro da lista,
+           // somando esses, e caso exista imprime
+        nums.stream()
+                .filter(n -> n > 10)
+                .reduce(soma)
+                .ifPresent(System.out::println);
     }
 }
