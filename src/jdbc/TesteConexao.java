@@ -18,4 +18,9 @@ public class TesteConexao {
       connection.close();
 
     }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
