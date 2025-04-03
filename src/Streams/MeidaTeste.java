@@ -8,8 +8,8 @@ public class MeidaTeste {
 
             System.out.println(m1.getVal());
             System.out.println(m2.getVal());
-            
-                    System.out.println(Media.combinar(m1, m2).getVal());
+
+            System.out.println(Media.combinar(m1, m2).getVal());
 
     }
 }
