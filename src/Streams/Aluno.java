@@ -1,4 +1,4 @@
-package Streams.exercices;
+package Streams;
 
 public class Aluno {
 

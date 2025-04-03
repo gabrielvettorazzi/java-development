@@ -1,7 +1,5 @@
 package Streams;
 
-import Streams.exercices.Aluno;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.BinaryOperator;
